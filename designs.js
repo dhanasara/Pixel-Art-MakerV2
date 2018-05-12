@@ -13,7 +13,7 @@ let rightClick = false;
 function makeGrid() {
   // Select size input
   var rowNum = $("#inputHeight").val();
-  var colNum = $("#inputWeight").val();
+  var colNum = $("#inputWidth").val();
 
   // empty the table before creating new
   $("#" + tableId).empty();
